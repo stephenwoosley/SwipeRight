@@ -1,0 +1,256 @@
+$font-stack:    'Lilita One', Helvetica, sans-serif;
+$font-secondary: 'Roboto Slab', Georgia, serif;
+$white: #ffffff;
+$green: #44a08f;
+$pink: #ff6f6f;
+$orange: #ff894f;
+$gray: #464646;
+
+body {
+  font: 100% $font-stack;
+  color: $white;
+}
+
+// ************ HEADER NAVIGATION CSS ************
+
+header {
+  background-color: $white;
+  height: 65px;
+  line-height: 65px;
+}
+
+#menu-logo {
+  text-align: center;
+}
+
+#menu-logo button {
+  transition: all 0.4s ease-in-out;
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 0;
+  border-width: 0px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../../images/SwipeRight-Logo-Circle-50.png");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+#menu-logo button:hover {
+  background-image: url("../../images/SwipeRight-Inverted-Logo-Circle-50.png");
+}
+
+// ************ HERO SECTION CSS ************
+
+.section-hero {
+  font-family: $font-stack;
+  text-align: center;
+  background-color: $gray;
+  color: $white;
+}
+
+.hero-title h1 {
+  font-size: 4em;
+  padding: 80px 0 10px 0;
+  letter-spacing: 5px;
+}
+
+.swipe-logo {
+  color: $orange;
+  font-family: $font-stack;
+}
+
+.right-logo {
+  color: $green;
+  font-family: $font-stack;
+}
+
+.hero-description {
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 0 0 75px 0;
+}
+
+.hero-description h3 {
+  font-size: 3.5em;
+  letter-spacing: 3px;
+}
+
+.icon {
+  padding: 0 0 100px 0;
+}
+
+.icon img {
+  height: 200px;
+  line-height: 200px;
+}
+
+// ************ SERVICES SECTION CSS ************
+
+#services {
+  font-family: $font-stack;
+  text-align: center;
+  background-color: $white;
+  color: $gray;
+  padding-bottom: 100px;
+}
+
+#service-title h1 {
+  padding: 50px 0 100px 0;
+  letter-spacing: 3px;
+}
+
+.bracket {
+  font-size: 10em;
+  vertical-align: bottom;
+}
+
+.services-title h3 {
+  letter-spacing: 3px;
+  font-size: 2.5em;
+}
+
+#services .icon img {
+  padding: 0 20px 0 20px;
+}
+
+.services-copy {
+  line-height: 30px;
+  padding: 25px 0 25px 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.services-copy p {
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  font-family: $font-secondary;
+}
+
+.carousel-cell .container {
+  margin-bottom: 50px;
+}
+
+// ************ OUR WORK SECTION CSS ************
+
+#our-work {
+  font-family: $font-stack;
+  text-align: center;
+  background-color: $pink;
+  color: $white;
+}
+
+#our-work-title h1 {
+  padding: 80px 0 50px 0;
+  letter-spacing: 3px;
+}
+
+// ************ WHO WE ARE SECTION CSS ************
+
+#who-we-are {
+  font-family: $font-stack;
+  text-align: center;
+  background-color: $green;
+  color: $white;
+}
+
+#who-we-are h1 {
+  padding: 80px 0 50px 0;
+  letter-spacing: 3px;
+}
+
+#who-we-are img {
+  border-radius: 50%;
+  border: 10px solid $white;
+}
+
+#who-we-are h3 {
+  letter-spacing: 3px;
+  font-size: 2em;
+}
+
+#who-we-are img {
+  height: 200px;
+  line-height: 200px;
+}
+
+#who-we-are-content {
+  line-height: 30px;
+  padding: 25px 0 50px 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  font-family: $font-secondary;
+}
+
+.col-centered {
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+#email-box {
+  font-family: $font-secondary;
+  position: static;
+  border-radius: 6px;
+  margin: 0 0 150px 0;
+  width: 450px;
+  height: 60px;
+  opacity: .6;
+  font-size: 20px;
+}
+
+
+#button {
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    bottom: auto;
+    left: auto;
+    height: 52px;
+    width: 52px;
+    background-color: $pink;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-clip: padding-box;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+}
+
+#button::after {
+    z-index: 3;
+    content: "";
+    background-image: url("../../images/send-plane.png");
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    margin: 6px;
+    display: block;
+}
+
+#button:hover {
+  background-color: $green;
+}
+
+
+
+
+// ************ FOOTER SECTION CSS ************
+
+footer {
+  background-color: $white;
+  height: 65px;
+  line-height: 65px;
+}
+
+footer p {
+  text-align: center;
+}
+
+.footer-logo {
+  letter-spacing: 1px;
+}
